@@ -25,7 +25,7 @@
 }
 
 .section-header-title {
-    font-size:  32px;
+    font-size: 32px;
     margin-bottom: 16px;
 }
 
@@ -86,6 +86,7 @@ header {
     width: 100%;
     top: 0;
 }
+
 header .header-content {
     display: flex;
     justify-content: space-between;
@@ -96,10 +97,12 @@ header .header-content {
     flex-grow: 1;
     max-width: 170px;
 }
+
 .header-content nav {
     flex-grow: 3;
     text-align: center;
 }
+
 .header-content .login {
     flex-grow: 1;
     text-align: right;
@@ -116,7 +119,7 @@ header .header-content {
 
 .header-content nav ul li .link-item {
     display: block;
-    width: 100px;
+    width: 110px;
     padding: 8px;
     position: relative;
 }
@@ -135,26 +138,26 @@ header .header-content {
     border-width: 0 2px;
     width: 96%;
     height: 100%;
-    transform: scale(1,0);
-    transition:transform 0.2s;
+    transform: scale(1, 0);
+    transition: transform 0.2s;
 }
 
 .header-content nav ul li .link-item:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
 }
 
 .header-content nav ul li .link-item::after {
     border-width: 2px 0;
     width: 100%;
     height: 91%;
-    transform: scale(0,1);
+    transform: scale(0, 1);
     transform-origin: left;
     transition: transform 0.4s;
     transition-delay: 0.2s;
 }
 
 .header-content nav ul li .link-item:hover::after {
-    transform: scale(1,1);
+    transform: scale(1, 1);
 }
 
 .header-content .login ul li {
@@ -164,7 +167,7 @@ header .header-content {
 
 .header-content .login ul li:last-child i {
     position: relative;
-    margin-right: 5px;  
+    margin-right: 5px;
 }
 
 .header-content .login ul li:last-child i::after {
@@ -217,7 +220,7 @@ header .header-content {
     color: var(--mainColor);
     display: block;
     margin-bottom: 10px;
-    border-bottom:1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .dropdown1 {
@@ -227,7 +230,7 @@ header .header-content {
 .dropdown1 .dropdown-menu {
     position: absolute;
     width: 150px;
-    border: 2px solid var(--mainColor); 
+    border: 2px solid var(--mainColor);
     margin-top: 38px;
     background: #fff;
     transform: scale(0);
@@ -250,13 +253,14 @@ header .header-content {
 
 
 .dropdown1 .dropdown-menu.dr {
-    margin-left: -48px; 
+    margin-left: -48px;
 }
 
 /* 3.1- Slider Section */
 section.slider {
     margin-top: 112px;
 }
+
 section.slider img {
     width: 100%;
 }
@@ -264,11 +268,12 @@ section.slider img {
 section.slider {
     position: relative;
 }
+
 .img-list span {
     position: absolute;
     width: 16px;
     height: 16px;
-    background: #fff; 
+    background: #fff;
     border-radius: 50%;
     bottom: 18px;
 }
@@ -290,7 +295,7 @@ section.slider .img-list span:hover {
 /* 3.2.0- Category Items Section */
 .category-items {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 28px;
     position: relative;
     margin-bottom: 40px;
@@ -308,8 +313,8 @@ section.slider .img-list span:hover {
 }
 
 .category-item:hover img {
-  box-shadow: 1px 1px 5px 8px #eee , -1px -1px 5px 8px #eee ;
-  cursor: pointer;
+    box-shadow: 1px 1px 5px 8px #eee, -1px -1px 5px 8px #eee;
+    cursor: pointer;
 }
 
 .category-item-subtitle {
@@ -334,8 +339,8 @@ section.slider .img-list span:hover {
 }
 
 .category-item:hover .icon {
-    opacity: 1;   
-    visibility: visible; 
+    opacity: 1;
+    visibility: visible;
 }
 
 /* bollets */
@@ -346,9 +351,10 @@ section.slider .img-list span:hover {
     background: var(--subColor);
     bottom: -50px;
     border-radius: 50%;
-    transition:  transform 0.2s;
+    transition: transform 0.2s;
 
 }
+
 .category-items .two span:first-child {
     left: 565px;
 }
@@ -390,7 +396,7 @@ section.slider .img-list span:hover {
     color: var(--subColor);
 }
 
-.discount .top + p {
+.discount .top+p {
     line-height: 1.7;
     margin-bottom: 16px;
 }
@@ -428,7 +434,6 @@ section.slider .img-list span:hover {
     left: 15px;
     font-weight: normal;
     color: var(--mainColor);
-    
 }
 
 .discount-item-info h2 {
@@ -451,7 +456,7 @@ section.slider .img-list span:hover {
 
 .sprite-item {
     flex: 1;
-    text-align: center;  
+    text-align: center;
     border-right: 1px solid var(--mainColor);
 }
 
@@ -532,7 +537,7 @@ section.slider .img-list span:hover {
 
 .products-items {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px 0;
     margin-bottom: 48px;
 }
@@ -554,7 +559,7 @@ section.slider .img-list span:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .product-overlay ul li {
@@ -703,7 +708,7 @@ footer {
 }
 
 .footer-info ul li a,
-.footer-account ul li a{
+.footer-account ul li a {
     display: block;
     color: gray;
     margin: 8px 0;
@@ -739,12 +744,12 @@ footer {
     height: 26px;
 }
 
-.footer-subscribe input:placeholder-shown {
+.footer-subscribe input::placeholder {
     padding: 6px;
     caret-color: white;
 }
 
-.footer-subscribe input:focus{
+.footer-subscribe input:focus {
     padding: 6px;
     color: white;
 }
