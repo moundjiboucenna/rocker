@@ -744,7 +744,7 @@ footer {
     height: 26px;
 }
 
-.footer-subscribe input::placeholder {
+.footer-subscribe input:placeholder-shown {
     padding: 6px;
     caret-color: white;
 }
